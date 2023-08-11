@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main -This program assigns random number to variable n
+ * main - This program assigns random number to variable n
  * Return: Always 0 (success)
  */
 int main(void)
@@ -17,6 +17,6 @@ int main(void)
 	else if (n == 0)
 		printf("%d is zero\n", n);
 	else
-		printf("%d is zero\n", n);
+		printf("%d is negative\n", n);
 	return (0);
 }
