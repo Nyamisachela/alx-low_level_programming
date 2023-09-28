@@ -14,11 +14,11 @@ void print_binary(unsigned long int n)
 		if ((n & mask) != 0)
 		{
 			found_one = 1;
-			putchar('1');
+			_putchar('1');
 		}
 		else if (found_one)
 		{
-			putchar('0');
+			_putchar('0');
 		}
 		mask >>= 1;
 	}
