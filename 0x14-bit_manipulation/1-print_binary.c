@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * print_binary - Prints the binary representation of an unsigned long integer
