@@ -10,13 +10,13 @@
 int clear_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned long int mask;
-	
+
 	if (index >= (sizeof(unsigned long int) * 8))
 		return (-1);
 	mask = 1UL << index;
 
     /* Use bitwise AND with the complement of the mask to clear the bit */
 	*n &= ~mask;
-	
+
 	return (1);
 }
